@@ -3,13 +3,14 @@ body {
     margin: 0;
     background-color: #fafafa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    
 }
 
 #logo {
     height: 50px;
     margin-left: 150px;
 }
+
 
 #barver {
     width: 100%;
@@ -22,17 +23,19 @@ body {
     display: inline-block;
     position: absolute;
     margin-left: 368px;
-    margin-top: -401px;
+    margin-top: -405px;
+    /* background-color: black; */
+    width: 0;
 }
 
 img {
     height: 100px;
     margin-left: 50px;
     position: absolute;
-
+    
 }
 #alinha {
-
+    
     position: relative;
     margin-top: -35px;
     margin-left: 250px;
@@ -58,9 +61,14 @@ img {
     padding: 10px;
     /* margin:100px; */
 }
+
+div ul a{
+    color:white;
+}
+
 #alinha ul a:hover{
     color:rgb(187, 206, 13);
-
+    
 }
 
 #bloconoticias{
@@ -68,7 +76,7 @@ img {
     height: 277px;
     width: 704px;
     margin-top: 35px;
-    margin-left: 135px;
+    margin-left: 115px;
     border: 0.1px solid rgb(243, 243, 243);
     /* border-radius: 10px 10px 10px 10px; */
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
@@ -99,13 +107,14 @@ img {
     height: 114px;
     width: 337px;
     margin-top: 20px;
-    margin-left: 135px;
+    margin-left: 115px;
     border: 0px solid #1C6EA4;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 5px 5px 5px 5px;
     /* border: solid rgb(240, 240, 240) 1px; */
     -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3)
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    position: relative;
 }
 
 #imgbupuli{
@@ -182,6 +191,22 @@ section.sec1 {
     display: block;
     position:relative;
 }
+
+#fotonoticia {
+    background-size:cover;
+    width:100%;
+    height: 206px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    /* position:relative; */
+    position: absolute; 
+    margin: 0; 
+    border-radius: 5%; 
+    height: 114px; 
+    width: 150px;
+}
+
 h1 a{
     color:black;
 }
@@ -196,4 +221,46 @@ h3 a{
 }
 h3 a:hover{
     color:#008115   ;
+}
+
+h4 {
+    cursor: pointer; height: 83px; width: 158px; margin-left: 163px; text-align: left; padding: 6px;
+}
+
+h4 a{
+    color:black;
+    text-decoration: none;
+    top: 30px; margin-left: 0px;
+}
+h4 a:hover{
+    color:#008115   ;
+}
+
+
+.wrapper {
+    max-width: 78em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+    /* opacity: 1; */
+    filter: none;
+    -moz-transition: opacity 1s ease, -moz-filter 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+    -ms-transition: opacity 1s ease, -ms-filter 1s ease;
+    transition: opacity 1s ease, filter 1s ease;
+    margin-top: 0px;
+    /* background-color: black; */
+    
+}
+
+#patrocinio {
+    position: relative; 
+    width: 322px;
+    height: 697px;
+    background: white;
+    margin-left: 900px;
+    margin-top: -680px;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
 }
