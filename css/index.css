@@ -1,3 +1,18 @@
+.wrapper {
+    max-width: 78em;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2em;
+    /* opacity: 1; */
+    filter: none;
+    -moz-transition: opacity 1s ease, -moz-filter 1s ease;
+    -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+    -ms-transition: opacity 1s ease, -ms-filter 1s ease;
+    transition: opacity 1s ease, filter 1s ease;
+    margin-top: 0px;
+    /* background-color: black; */
+}
+
 #blocos {
     display: inline-block;
     position: absolute;
@@ -56,45 +71,6 @@ img {
     margin-left: 220px;
     margin-top: -10px;
     color: rgb(51, 51, 51);
-}
-
-/* CTA */
-#cta {
-    background-color: #424040;
-    /* height: 50px; */
-    color: rgba(255, 255, 255, 0.75);
-    background-attachment: fixed;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.651)), url(../img/foto8.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
-    padding: 50px;
-    z-index: -1;
-    margin-top: 20px;
-    color: white;
-}
-
-footer {
-    width: 100%;
-    /* height: 5vh; */
-    background:#fafafa;
-    bottom: 0;
-    /* color: black; */
-    border-top: 1px solid rgb(177, 177, 177);
-    margin-top: 380px;
-}
-
-footer div {
-    padding: 30px;
-    width: 690px;
-    /* height: 110px; */
-    background-color: rgba(252, 252, 252, 0);
-    margin-left: 500px;
-    color:black;
-    top:30%;
-    line-height: 23px;
 }
 
 section.sec1 {
@@ -174,27 +150,12 @@ h4 a:hover {
     color:#008115   ;
 }
 
-.wrapper {
-    max-width: 78em;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 2em;
-    /* opacity: 1; */
-    filter: none;
-    -moz-transition: opacity 1s ease, -moz-filter 1s ease;
-    -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
-    -ms-transition: opacity 1s ease, -ms-filter 1s ease;
-    transition: opacity 1s ease, filter 1s ease;
-    margin-top: 0px;
-    /* background-color: black; */
-}
-
 #patrocinio {
     position: relative; 
     width: 322px;
     height: 684px;
     background: white;
-    margin-left: 900px;
+    margin-left: 920px;
     margin-top: -790px;
     -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
@@ -211,4 +172,43 @@ h4 a:hover {
 #date a{
     margin-left: 350px; 
     color: #8B8B8B;
+}
+
+/* CTA */
+#cta {
+    background-color: #424040;
+    /* height: 50px; */
+    color: rgba(255, 255, 255, 0.75);
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.651)), url(../img/foto8.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    z-index: -1;
+    margin-top: 20px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    /* height: 5vh; */
+    background:#fafafa;
+    bottom: 0;
+    /* color: black; */
+    border-top: 1px solid rgb(177, 177, 177);
+    margin-top: -290px;
+}
+
+footer div {
+    padding: 30px;
+    width: 690px;
+    /* height: 110px; */
+    background-color: rgba(252, 252, 252, 0);
+    margin-left: 500px;
+    color:black;
+    top:30%;
+    line-height: 23px;
 }
