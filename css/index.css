@@ -13,7 +13,7 @@
     /* background-color: black; */
 }
 
-#blocos {
+#bloco2 {
     display: inline-block;
     position: absolute;
     margin-left: 436px;
@@ -41,13 +41,13 @@ img {
     box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
 }
 
-#divisoriatexto{
+/* #divisoriatexto{
     height: 85px;
     width: 380px;
     background-color: rgb(255, 255, 255);
     margin-left: 330px;
     color: rgb(51, 51, 51);
-}
+} */
 
 #nottwo{
     background-color: #ffffff;
@@ -56,8 +56,6 @@ img {
     margin-top: 20px;
     margin-left: 10px;
     border: 0px solid #1C6EA4;
-    /* border-radius: 5px 5px 5px 5px; */
-    /* border: solid rgb(240, 240, 240) 1px; */
     -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
     box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
@@ -73,17 +71,6 @@ img {
     color: rgb(51, 51, 51);
 }
 
-section.sec1 {
-    width: 100%;
-    height: 675px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.897), rgba(53, 49, 49, 0.25)), url('../img/bask.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center;
-    position: relative;
-    padding:10px 0;
-}
-
 #cir2 {
     background-size:cover;
     width:100%;
@@ -91,7 +78,6 @@ section.sec1 {
     max-width: 100%;
     object-fit: cover;
     display: block;
-    /* position:relative; */
     position: absolute; 
     margin: 0; 
     height: 269px; 
