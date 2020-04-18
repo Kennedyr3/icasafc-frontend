@@ -1,13 +1,13 @@
 #nottwo{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     height: 98px;
     width: 289px;
     margin-top: 20px;
     margin-left: 17px;
-    border: 0px solid #1C6EA4;
-    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    /* border: 0px solid #1C6EA4; */
+    /* -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
     -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3); */
     position: relative;
 }
 
