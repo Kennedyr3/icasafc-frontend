@@ -1,0 +1,94 @@
+#nottwo{
+    background-color: #ffffff;
+    height: 98px;
+    width: 289px;
+    margin-top: 20px;
+    margin-left: 17px;
+    border: 0px solid #1C6EA4;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+
+h5 {
+    cursor: pointer;
+    height: 83px;
+    width: 140px;
+    margin-left: 140px;
+    text-align: left;
+    padding: 6px;
+}
+
+h5 a {
+    color:black;
+    text-decoration: none;
+    top: 30px; margin-left: 0px;
+}
+
+h5 a:hover {
+    color:#008115   ;
+}
+
+#fotonoticia {
+    background-size:cover;
+    width:100%;
+    /* height: 206px; */
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    /* position:relative; */
+    position: absolute; 
+    margin: 0; 
+    /* border-radius: 5%;  */
+    height: 98px; 
+    width: 131px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#date {
+    margin:0;
+    padding: 0;
+    margin-top: -39px; 
+    position: absolute;
+}
+
+#date a{
+    margin-left: 215px; 
+    color: #8B8B8B;
+}
+
+#patrocinio {
+    position: relative; 
+    width: 326px;
+    height: 684px;
+    background: white;
+    margin-left: 920px;
+    margin-top: -990px;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+footer {
+    width: 100%;
+    /* height: 5vh; */
+    background:#fafafa;
+    bottom: 0;
+    /* color: black; */
+    border-top: 1px solid rgb(177, 177, 177);
+    margin-top: 320px;
+}
+
+footer div {
+    padding: 30px;
+    width: 690px;
+    /* height: 110px; */
+    background-color: rgba(252, 252, 252, 0);
+    margin-left: 500px;
+    color:black;
+    top:30%;
+    line-height: 23px;
+}
