@@ -54,3 +54,16 @@ td{
   align-self: center;
   
 }
+
+#othersLinks {
+  position: relative; 
+  width: 322px;
+  height: 100px;
+  background: white;
+  margin-left: 920px;
+  margin-top: -580px;
+  -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
