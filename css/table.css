@@ -1,0 +1,10 @@
+a.links {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: 'lightgrey';
+
+}
+a.links:hover, .links:active{
+    color:'green';
+}
