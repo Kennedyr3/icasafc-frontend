@@ -1,14 +1,7 @@
-a.links {
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  color: 'lightgrey';
-
+span {
+  color: black;
+  font-weight: bold;
 }
-a.links:hover, .links:active{
-    color:'green';
-}
-
 .table {
   max-width: 78em;
   margin: 0 auto;
