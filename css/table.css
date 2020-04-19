@@ -8,3 +8,53 @@ a.links {
 a.links:hover, .links:active{
     color:'green';
 }
+
+.table {
+  max-width: 78em;
+  margin: 0 auto;
+  padding: 0 2em;
+  padding-top: 2em;
+  filter: none;
+  -moz-transition: opacity 1s ease, -moz-filter 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+  -ms-transition: opacity 1s ease, -ms-filter 1s ease;
+  transition: opacity 1s ease, filter 1s ease;
+  margin-top: 0px;
+}
+
+
+/*TABELA INTEIRA*/
+#playlistTable {
+  width: 70%;
+  border-collapse: collapse;
+  border: 0px solid rgb(243, 243, 243);
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+}
+/*titulos da tabela*/
+
+thead {
+  background: white;
+  border-top: 1px none #c0bebe;
+  border-bottom: 1px solid #e6dbdb;
+}
+
+#background1 {
+  background-color: #dbdbdb;
+}
+
+#background2 {
+  background-color: #ffffff;
+}
+
+th {
+  padding: 5px;
+  color: #b1b1b1;
+  font-weight: bold;
+}
+
+td{
+  font-weight: bold;
+  padding: 5px;
+}
