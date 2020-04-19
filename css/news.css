@@ -1,16 +1,75 @@
-#nottwo{
-    /* background-color: #ffffff; */
+.where_i_am {
+    color:rgb(0, 0, 0);
+    /* text-decoration: underline; */
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.where_i_am a{ 
+    color:black;
+}
+
+.banner {
+    background-size:cover;
+    width:100%;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    height: 319px;
+    width: 740px;
+    margin-left: 90px;
+}
+
+.othernews {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.blocknews {
+    position: relative; 
+    width: 326px;
+    height: 684px;
+    background: rgb(255, 255, 255);
+    margin-left: 920px;
+    margin-top: -950px;
+    border: 0px solid white;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
+}
+
+.moresse{
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+#morenews{
     height: 98px;
     width: 289px;
     margin-top: 20px;
     margin-left: 17px;
-    /* border: 0px solid #1C6EA4; */
-    /* -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3); */
     position: relative;
 }
 
+#photonews {
+    background-size:cover;
+    width:100%;
+    /* height: 206px; */
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    /* position:relative; */
+    position: absolute; 
+    margin: 0; 
+    /* border-radius: 5%;  */
+    height: 98px; 
+    width: 131px;
+    cursor: pointer;
+    z-index: 1;
+}
 
 h5 {
     cursor: pointer;
@@ -31,23 +90,6 @@ h5 a:hover {
     color:#008115   ;
 }
 
-#fotonoticia {
-    background-size:cover;
-    width:100%;
-    /* height: 206px; */
-    max-width: 100%;
-    object-fit: cover;
-    display: block;
-    /* position:relative; */
-    position: absolute; 
-    margin: 0; 
-    /* border-radius: 5%;  */
-    height: 98px; 
-    width: 131px;
-    cursor: pointer;
-    z-index: 1;
-}
-
 #date {
     margin:0;
     padding: 0;
@@ -60,32 +102,18 @@ h5 a:hover {
     color: #8B8B8B;
 }
 
-#patrocinio {
-    position: relative; 
-    width: 326px;
-    height: 684px;
-    background: white;
-    margin-left: 920px;
-    margin-top: -990px;
-    -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
-}
-
 footer {
     width: 100%;
     /* height: 5vh; */
-    background:#fafafa;
+    background:#ffffff;
     bottom: 0;
-    /* color: black; */
-    border-top: 1px solid rgb(177, 177, 177);
+    border-top: 1px solid rgb(231, 231, 231);
     margin-top: 320px;
 }
 
 footer div {
     padding: 30px;
     width: 690px;
-    /* height: 110px; */
     background-color: rgba(252, 252, 252, 0);
     margin-left: 500px;
     color:black;

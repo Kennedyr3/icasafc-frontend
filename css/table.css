@@ -2,6 +2,13 @@ span {
   color: black;
   font-weight: bold;
 }
+
+.where_i_am a{
+  color:rgb(0, 0, 0);
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
 .table {
   max-width: 78em;
   margin: 0 auto;
@@ -13,12 +20,14 @@ span {
   -ms-transition: opacity 1s ease, -ms-filter 1s ease;
   transition: opacity 1s ease, filter 1s ease;
   margin-top: 0px;
+  margin-left: 80px;
+  margin-bottom: 500px;
 }
 
 
 /*TABELA INTEIRA*/
 #playlistTable {
-  width: 70%;
+  width: 65%;
   border-collapse: collapse;
   border: 0px solid rgb(243, 243, 243);
   -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
@@ -34,7 +43,7 @@ thead {
 }
 
 #background1 {
-  background-color: #dbdbdb;
+  background-color: #EFEFEF;
   text-align: left;
 }
 
@@ -52,15 +61,15 @@ td{
   font-weight: bold;
   padding: 5px;
   align-self: center;
-  
+  background: rgb(255, 255, 255);
 }
 
 #othersLinks {
   position: relative; 
-  width: 322px;
-  height: 100px;
+  width: 317px;
+  height: 125px;
   background: white;
-  margin-left: 920px;
+  margin-left: 850px;
   margin-top: -580px;
   -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
