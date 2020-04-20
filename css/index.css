@@ -199,6 +199,8 @@ footer {
 }
 
 footer div {
+    margin-left: 280px; 
+    text-align: center;
     padding: 30px;
     width: 690px;
     color:black;
