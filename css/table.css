@@ -11,7 +11,11 @@
 
 .where_i_am a{
   color:rgb(0, 0, 0);
-  text-decoration: underline;
+}
+
+.where_i_am {
+  color:rgb(0, 0, 0);
+  margin-left: 50px;
 }
 
 .table {
@@ -33,9 +37,10 @@
   width: 830px;
   border-collapse: collapse;
   border: 0px solid rgb(243, 243, 243);
-  -webkit-box-shadow: 0px 0px 9px 4px rgba(224,224,224,1);
-  -moz-box-shadow: 0px 0px 9px 4px rgba(224,224,224,1);
-  box-shadow: 0px 0px 9px 4px rgba(224,224,224,1);
+  -webkit-box-shadow: 0px 0px 9px 3px rgba(224,224,224,1);
+  -moz-box-shadow: 0px 0px 9px 3px rgba(224,224,224,1);
+  box-shadow: 0px 0px 9px 3px rgba(224,224,224,1);
+  margin-left: 50px;
 }
 /*titulos da tabela*/
 
@@ -71,9 +76,9 @@ td{
   position: relative; 
   width: 317px;
   height: 125px;
-  background: white;
-  margin-left: 890px;
-  margin-top: -585px;
+  background: rgb(255, 255, 255);
+  margin-left: 900px;
+  margin-top: -580px;
   -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
   box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
@@ -105,4 +110,8 @@ footer div {
   color:black;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+h1 {
+  margin-left: 50px;
 }

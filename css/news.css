@@ -1,8 +1,12 @@
 .where_i_am {
     color:rgb(0, 0, 0);
     /* text-decoration: underline; */
-    margin-top: 40px;
+    margin-top: 30px;
     margin-left: 90px;
+}
+
+body{
+    background-color: white;
 }
 
 .where_i_am a{ 
@@ -28,12 +32,12 @@
 }
 
 .blocknews {
-    position: relative; 
+    position: absolute; 
     width: 326px;
     height: 684px;
     background: rgb(255, 255, 255);
     margin-left: 920px;
-    margin-top: -950px;
+    margin-top: -978px;
     border: 0px solid white;
     border-radius: 10px;
     -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
@@ -108,7 +112,7 @@ footer {
     background:#ffffff;
     bottom: 0;
     border-top: 1px solid rgb(231, 231, 231);
-    margin-top: 320px;
+    margin-top: 50px;
 }
 
 footer div {
