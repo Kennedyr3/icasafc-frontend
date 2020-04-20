@@ -1,11 +1,16 @@
+
 .span {
-  color: black;
   font-weight: bold;
+  margin-left: 20px;
+  line-height: 1.9;
+}
+
+.span a{
+  color: #06CE4F;
 }
 
 .where_i_am a{
   color:rgb(0, 0, 0);
-  /* font-weight: bold; */
   text-decoration: underline;
 }
 
@@ -19,20 +24,18 @@
   -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
   -ms-transition: opacity 1s ease, -ms-filter 1s ease;
   transition: opacity 1s ease, filter 1s ease;
-  margin-top: 0px;
-  margin-left: 80px;
   margin-bottom: 500px;
 }
 
 
 /*TABELA INTEIRA*/
 #playlistTable {
-  width: 65%;
+  width: 830px;
   border-collapse: collapse;
   border: 0px solid rgb(243, 243, 243);
-  -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
-  -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
-  box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.38);
+  -webkit-box-shadow: 0px 0px 9px 4px rgba(224,224,224,1);
+  -moz-box-shadow: 0px 0px 9px 4px rgba(224,224,224,1);
+  box-shadow: 0px 0px 9px 4px rgba(224,224,224,1);
 }
 /*titulos da tabela*/
 
@@ -69,10 +72,34 @@ td{
   width: 317px;
   height: 125px;
   background: white;
-  margin-left: 850px;
-  margin-top: -595px;
+  margin-left: 890px;
+  margin-top: -585px;
   -webkit-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
   -moz-box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
   box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.3);
 }
 
+footer {
+  width: 100%;
+  background:#fafafa;
+  bottom: 0;
+  border-top: 1px solid rgb(218, 218, 218);
+  -moz-transition: opacity 1s ease, -moz-filter 1s ease;
+  -webkit-transition: opacity 1s ease, -webkit-filter 1s ease;
+  -ms-transition: opacity 1s ease, -ms-filter 1s ease;
+  transition: opacity 1s ease, filter 1s ease;
+  max-width: 80.3em;
+  margin: 0 auto;
+  padding-top: 1em;
+  filter: none;
+  margin-top: 130px;
+  font-family: sans-serif;
+}
+
+footer div {
+  padding: 30px;
+  width: 690px;
+  color:black;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
