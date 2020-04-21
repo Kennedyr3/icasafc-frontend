@@ -18,45 +18,44 @@ background-size: cover;
 /* Container */
 .container1{
     background-color: rgba(255, 255, 255,0.9);
-    width: 90%;
+    width: 1714px;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 100px;
 }
 .container2{
-    margin-left: 5%;
-    max-width:84.8%;
+    margin-left: 100px;
+    max-width:1614px;
     max-height: 500px;
     background-color: rgba(0, 145, 47, 0.4);
     padding: 50px;
 }
 .container3{
     background-color: rgba(255, 255, 255,0.9);
-    width: 90%;
+    width: 1714px;
     height: 50px;
-    margin-left: 5%;
-    margin-top: 3%;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 .container4{
-    margin-left: 5%;
-    max-width:85.8%;
+    margin-left: 100px;
+    max-width:1634px;
     max-height: 500px;
     background-color: rgba(0, 145, 47, 0.4);
     padding: 40px;
 }
 /*Fotos utilizadas nas divs*/
 .fotos{
-    margin-left: 5%;
-    margin-top: 1%;
+    margin-left: 90px;
+    margin-top: 10px;
+    
 }
 .fotos2{
-    margin-left: 7%;
+    margin-left: 110px;
 }
 
 .margingallery{
-    margin-left: 45%;
+    margin-left: 850px;
     font-size: 25px;
-    
-   
 }
 /*Footer*/
 footer {
