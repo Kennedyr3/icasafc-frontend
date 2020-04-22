@@ -35,14 +35,9 @@
     height: 269px; 
     width: 860px;
 }
-
-#blocktwo {
-    display: inline-block;
-    position: absolute;
-    margin-left: 436px;
-    margin-top: -438px;
-    /* background-color: black; */
-    width: 0;
+#block{
+    float: right;
+    margin-top: -439px;
 }
 
 img {
@@ -189,7 +184,7 @@ h4 a:hover {
 
 footer {
     width: 100%;
-    background:#fafafa;
+    background:#ffffff;
     bottom: 0;
     border-top: 1px solid rgb(218, 218, 218);
     -moz-transition: opacity 1s ease, -moz-filter 1s ease;
@@ -215,17 +210,18 @@ footer div {
 }
 
 
-input{
+#caixa{
     padding: 0px 20px;
     margin: 15px;
     width: 199px;
     height: 37px;
+    border: 1px solid rgb(218, 218, 218);
     /* margin-top: 10px; */
 }
 
 
 .form {
-    margin-top: -120px;
+    margin-top: -150px;
     position: absolute;
 }
 
