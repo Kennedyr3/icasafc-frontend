@@ -1,2 +1,2 @@
 # Pagina Icasa
-Reimaginação da pagina do icasa
+Reimagining the icasa page
